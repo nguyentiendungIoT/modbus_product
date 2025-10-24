@@ -1,0 +1,7 @@
+../FreeModbus/port/portserial.c:36:6:xMBPortSerialInit	16	static
+../FreeModbus/port/portserial.c:73:6:vMBPortSerialEnable	16	static
+../FreeModbus/port/portserial.c:107:6:xMBPortSerialGetByte	24	static
+../FreeModbus/port/portserial.c:127:6:xMBPortSerialPutByte	16	static
+../FreeModbus/port/portserial.c:140:6:vMBPortSerialClose	8	static
+../FreeModbus/port/portserial.c:151:6:USART2_IRQHandler	16	static
+../FreeModbus/port/portserial.c:206:6:vMBPortSerialTransmit	16	static

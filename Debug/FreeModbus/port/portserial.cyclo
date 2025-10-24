@@ -1,0 +1,7 @@
+../FreeModbus/port/portserial.c:36:6:xMBPortSerialInit	2
+../FreeModbus/port/portserial.c:73:6:vMBPortSerialEnable	4
+../FreeModbus/port/portserial.c:107:6:xMBPortSerialGetByte	3
+../FreeModbus/port/portserial.c:127:6:xMBPortSerialPutByte	2
+../FreeModbus/port/portserial.c:140:6:vMBPortSerialClose	1
+../FreeModbus/port/portserial.c:151:6:USART2_IRQHandler	9
+../FreeModbus/port/portserial.c:206:6:vMBPortSerialTransmit	1
