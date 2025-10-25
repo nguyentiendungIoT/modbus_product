@@ -44,6 +44,29 @@ Dự án này là firmware cho STM32F407VET6, điều khiển 3 trục servo qua
 - Kiểm tra motor quay đúng chiều, đúng số xung
 - Xem debug qua UART hoặc LED
 
+## 📋 Tài liệu Testing
+Dự án cung cấp đầy đủ tài liệu để test firmware:
+
+| Tài liệu | Mục đích |
+|----------|---------|
+| `TEST_SUMMARY.md` | Tóm tắt trạng thái build, các tính năng, checklist test |
+| `TEST_CASES.md` | 29 test case chi tiết (khởi động, điều khiển từng trục, multi-axis, edge cases) |
+| `TESTING_GUIDE.md` | Hướng dẫn chi tiết: Modbus Poll, Python test script, serial terminal testing |
+| `MODBUS_COMMANDS.md` | Các lệnh Modbus sẵn dùng (hex format, CRC) cho các tình huống test |
+
+### Quick Start Testing
+```
+1. Flash firmware:      .\flash.bat
+2. Chọn công cụ test:  
+   - Modbus Poll (GUI)
+   - Python script (tự động)
+   - Serial terminal (manual)
+3. Gửi test command từ MODBUS_COMMANDS.md
+4. Kiểm tra kết quả motor
+```
+
+Xem chi tiết: [`TESTING_GUIDE.md`](TESTING_GUIDE.md)
+
 ## Đóng góp
 - Mọi ý kiến, bug, hoặc yêu cầu mở rộng vui lòng tạo issue hoặc pull request tại repo này.
 
