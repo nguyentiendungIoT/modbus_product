@@ -1,0 +1,8 @@
+../Core/Src/motor_control.c:19:6:Motor_X_Move	3
+../Core/Src/motor_control.c:40:6:Motor_Y_Move	3
+../Core/Src/motor_control.c:60:6:Motor_Z_Move	3
+../Core/Src/motor_control.c:78:6:Motor_X_Stop	1
+../Core/Src/motor_control.c:83:6:Motor_Y_Stop	1
+../Core/Src/motor_control.c:88:6:Motor_Z_Stop	1
+../Core/Src/motor_control.c:93:6:Motor_All_Stop	1
+../Core/Src/motor_control.c:101:6:HAL_TIM_PeriodElapsedCallback	4

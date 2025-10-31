@@ -1,0 +1,11 @@
+../FreeModbus/modbus/mb_callbacks.c:35:14:eMBFuncReadCoils	6
+../FreeModbus/modbus/mb_callbacks.c:78:14:eMBFuncReadDiscreteInputs	6
+../FreeModbus/modbus/mb_callbacks.c:121:14:eMBFuncReadHoldingRegs	3
+../FreeModbus/modbus/mb_callbacks.c:151:14:eMBFuncReadInputRegs	3
+../FreeModbus/modbus/mb_callbacks.c:181:14:eMBFuncWriteSingleCoil	4
+../FreeModbus/modbus/mb_callbacks.c:210:14:eMBFuncWriteSingleReg	2
+../FreeModbus/modbus/mb_callbacks.c:228:14:eMBFuncWriteMultipleCoils	4
+../FreeModbus/modbus/mb_callbacks.c:266:14:eMBFuncWriteMultipleRegs	3
+../FreeModbus/modbus/mb_callbacks.c:299:16:prvGetCoilBit	2
+../FreeModbus/modbus/mb_callbacks.c:315:13:prvSetCoilBit	3
+../FreeModbus/modbus/mb_callbacks.c:336:16:prvGetDiscreteInputBit	2
